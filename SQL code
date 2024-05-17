@@ -1,0 +1,192 @@
+CREATE TABLE Meesho
+(CustID int PRIMARY KEY,CustName varchar(90) NOT NULL, Age int NOT NULL, City char(90), Country char(90), ProductName varchar(90), ProductID int, Pincode int, rating int );
+
+select * from Meesho;
+
+INSERT INTO Meesho(CustID,CustName,Age,City,Country,ProductName,ProductID,Pincode,rating)
+VALUES(1,'SAM',79,'Delhi','India','xyz',4,41432,9),
+       (2,'PAM',78,'Ahmednagar','India','abc',3,7765,8),
+       (3,'RAM',77,'pune','India','abc',5,7654,9),
+       (4,'SHAM',65,'shirdi','India','cda',4,6877,5),
+       (5,'PRIYA',20,'solapur','India','abc',3,8899,9),
+       (6,'RIYA',67,'Ahmednagar','India','rgg',6,6545,8),
+       (7,'REHA',56,'badlapur','India','hgf',3,6547,6),
+       (8,'POOJA',45,'deharadun','India','abc',1,8987,8),
+       (9,'SHRUSHTI',56,'Ahmednagar','India','dfg',7,4567,8),
+       (10,'SAYLI',16,'gulmarg','India','tge',3,5678,8),
+       (11,'SUPRIYA',66,'solapur','India','ert',6,9775,7),
+       (12,'VRUSHLI',35,'Ahmednagar','India','abc',3,9754,8),
+       (13,'AKSHATA',38,'mumbai','India','rtf',7,6532,8),
+       (14,'MINAKSHI',37,'mumbai','India','rer',3,6432,7),
+       (15,'SIYA',67,'Ahmednagar','India','erf',7,5647,9),
+       (16,'MANISHA',65,'Ahmednagar','India','ttg',3,5432,8),
+       (17,'NUPUR',76,'pune','India','erg',8,8643,5),
+       (18,'SEEMA',55,'Ahmednagar','India','erg',3,3421,8),
+       (19,'RAJ',54,'rashin','India','wef',2,8765,8),
+       (20,'RAHUL',56,'badlapur','India','abc',3,6767,8),
+       (21,'RISHI',74,'jamkhed','India','rer',6,4321,9),
+       (22,'UDIT',77,'Ahmednagar','India','tgf',3,7556,8),
+       (23,'SHUBHAM',36,'shrirampur','India','gbg',7,4343,8),
+       (24,'YASH',67,'Nagpur','India','erg',3,7423,9),
+       (25,'RAJIV',78,'Nashik','India','reg',7,8761,8),
+       (26,'RITIK',67,'jalgaon','India','rgf',3,7654,8),
+       (27,'TANU',86,'amravati','India','srg',5,9675,3),
+       (28,'AASHI',67,'kolhapur','India','abc',3,7654,8),
+       (29,'SHRADDHA',37,'osmanabad','India','rtg',7,4765,8),
+       (30,'PURVA',36,'thane','India','rgf',3,5788,3),
+       (31,'PRASHANT',78,'jalna','India','rgr',5,4098,7),
+       (32,'PRAVIN',78,'Ahmednagar','India','rgg',6,7458,7),
+       (33,'PRATIBHA',67,'yavatmal','India','rgr',7,5231,10),
+       (34,'RAVI',67,'chandrapur','India','rge',8,4677,10),
+       (35,'JENISHA',55,'Dhule','India','abc',9,7654,9),
+       (36,'PRAJWAL',67,'Satara','India','abrc',11,4567,8),
+       (37,'RITIKA',67,'latur','India','erg',23,6877,8),
+       (38,'SWETA',67,'Akola','India','abc',65,6532,9),
+       (39,'NIMISHA',56,'Bhusawal','India','eggr',87,6578,8),
+       (40,'HARSHADA',44,'Wardha','India','ggg',56,6575,4),
+       (41,'SUNITA',76,'Ahmednagar','India','frr',78,4565,9),
+       (42,'PRATIK',55,'Vasai','India','gfd',7,7654,8),
+       (43,'PRATIKSHA',45,'Ambernath','India','sff',8,6546,7),
+       (44,'SITA',36,'Ahmednagar','India','abc',67,6576,8),
+       (45,'GEETA',64,'Jalna','India','rgr',66,5465,6),
+       (46,'RITIKA',65,'Beed','India','fgv',65,8677,7),
+       (47,'ABHISHEK',78,'Ahmednagar','India','abc',55,5645,6),
+       (48,'ABHI',77,'Gondia','India','fdv',77,8667,6),
+       (49,'SITARA',56,'Ahmednagar','India','abc',89,7654,5),
+	   (50,'NAYA',87,'Gondia','India','fgv',45,6566,6),
+	   (51,'ISHAAN',67,'Nanded','India','rerg',56,6656,7),
+	   (52,'KARAN',45,'Ahmednagar','India','argbc',3,4355,2),
+       (53,'ATHARVA',33,'Nashik','India','abc',67,3435,3),
+       (54,'NAVI',61,'Sangli','India','abgc',77,3456,8),
+       (55,'DHRUVA',32,'Ahmednagar','India','rgg',87,3434,7),
+       (56,'AARNA',45,'Rajura','India','rfg',7,7669,7),
+       (57,'AMAR',55,'Ahmednagar','India','agbc',8,6757,9),
+       (58,'AGASTYA',54,'Gangapur','India','fggf',3,8766,8),
+       (59,'NIL',61,'Nilanga','India','abc',88,7888,8),
+       (60,'SHYLA',64,'Sangamner','India','dfg',3,7899,6),
+       (61,'TENZIN',65,'Ahmednagar','India','fdf',78,8878,7),
+       (62,'TAMIA',45,'Rajur','India','abbc',98,9008,5),
+       (63,'ANJALI',44,'Sangli','India','abc',5,6546,4),
+       (64,'AJAY',44,'Ahmednagar','India','avbc',56,6758,8),
+       (65,'VIJAY',43,'Solapr','India','dsabc',87,6554,3),
+       (66,'AMBAR',24,'Shrirampur','India','fbvf',88,3334,4),
+       (67,'SHAAN',34,'Mumbai','India','rge',67,2222,5),
+       (68,'REVA',22,'Ahmednagar','India','fggf',3,3343,8),
+       (70,'DEVEN',33,'Satara','India','gfg',2,5488,9),
+       (71,'KAVI',45,'Pandharpur','India','dsf',67,9879,8),
+       (72,'RAGHAV',43,'Ahmednagar','India','abc',89,4356,6),
+       (73,'DIVYA',32,'Pune','India','abc',91,8769,9),
+       (74,'AVAN',43,'Pune','India','abc',5,7688,6),
+       (75,'ASHWIN',22,'Ahmednagar','India','abc',67,5477,5),
+       (76,'TULSI',21,'Shrirampur','India','abc',6,7869,8),
+       (77,'ARTHA',43,'Ahmednagar','India','abc',66,3244,7),
+       (78,'SONA',33,'Newasa','India','abc',13,7655,8),
+       (79,'AADHIRA',32,'Ahmednagar','India','abc',45,4568,9),
+       (80,'SHAILA',75,'Nashik','India','absc',3,6877,4),
+       (81,'AMITABH',66,'Ahmednagar','India','ahbc',67,6879,6),
+       (82,'VANI',45,'Shrirampur','India','abdc',87,8769,8),
+       (83,'LATA',43,'Ahmednagar','India','abdc',78,7658,8),
+       (84,'MIHIR',64,'Ahmednagar','India','abc',65,748,9),
+       (85,'VARUN',77,'Mumbai','India','argbc',78,8543,8),
+       (86,'AKHILESH',51,'Mumbai','India','aeaerbc',45,6788,8),
+       (87,'RUCHIKA',50,'Ahmednagar','India','abrc',34,5477,8),
+       (88,'KANNAN',20,'Satara','India','abrrgc',87,9098,8),
+       (89,'JANITRA',18,'Solpur','India','rgr',3,6666,8),
+       (90,'TEJ',87,'Ahmednagar','India','abc',2,8788,8),
+       (91,'ANILA',68,'Nashik','India','reaa',54,3425,8),
+       (93,'TANAIA',76,'Ahmednagar','India','ret',88,657,8),
+       (94,'PRASAD',57,'Newasa','India','afbc',67,7657,6),
+       (95,'MANU',55,'Ahmednagar','India','aabc',98,7687,5),
+       (96,'TANISHKA',44,'Pune','India','rgf',77,87678,8),
+       (97,'RASHMIKA',60,'Ahmednagar','India','gae',6,767,8),
+       (98,'VIJAY',40,'Ahmednagar','India','rg',78,758,9),
+       (99,'RAJESH',36,'Pune','India','abegc',77,6877,9);
+       
+       
+       
+
+  select * from Meesho;
+  
+#Minimum Age
+select min(Age)
+from Meesho;
+
+select avg(rating)
+from Meesho;
+
+select sum(Age)
+from Meesho;
+
+select CustID, count(*) as total_customer
+from Meesho
+group by CustID;
+
+select Age, sum(rating) as total_rating
+from Meesho
+group by Age
+order by total_rating desc 
+limit 4 ;
+
+select ProductName, sum(rating) as total_rating
+from Meesho
+group by ProductName
+having total_rating > 8;
+
+select city, sum(rating) as total_loss
+from Meesho
+group by city
+order by total_loss 
+limit 5 ;
+
+select *
+from Meesho
+where Age > 20 ;
+
+create table customer_info (CustID int, Salary numeric, Address varchar(50), Mobile int);
+
+ 
+select *
+from customer_info;
+
+insert into customer_info (CustID, Salary, Address, Mobile)
+values (1,'100000','abc',545),
+	   (2,'50000','xyz',407),
+       (3,'45000','xyz',980),
+       (4,'20000','xyz',867),
+       (5,'25000','xyz',956),
+       (6,'40000','cde',734);
+       
+select *
+from customer_info;
+
+select m.*, ci.Mobile
+from Meesho m
+inner join customer_info ci
+on m.CustID = ci.CustID;
+    
+    
+select m.*,ci.Mobile
+from Meesho m
+left join customer_info ci
+on m.CustID = ci.CustID;
+
+select m.*,ci.Mobile
+from Meesho m
+right join customer_info ci
+on m.CustID = ci.CustID;
+
+select m.*, ci.*
+from Meesho m 
+left join  customer_info ci
+on m.CustID = ci.CustID
+union
+select m.*,ci.*
+from  Meesho m 
+right join  customer_info ci
+on m.CustID = ci.CustID;
+
+
+
+
+
+
